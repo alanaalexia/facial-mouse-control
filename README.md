@@ -36,9 +36,13 @@ A `run.bat` script automates the entire setup process on Windows.
 ### Folder structure
 
 facial-mouse-control/
+
 ├── .venv/ (created automatically)
+
 ├── requirements.txt
+
 ├── prototype.ipynb
+
 └── run.bat
 
 
