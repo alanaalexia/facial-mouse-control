@@ -18,4 +18,4 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name=.venv --display-name "prototype.ipynb"
 
 :: 5. Ready to use Jupyter notebook
-echo The environment is ready. Open prototype.ipynb in VSCode and select the venv kernel on top (search).
+echo The environment is ready. Open prototype.ipynb in VSCode and select the .venv kernel on top (search).
