@@ -1,0 +1,7 @@
+# All libraries to install in the virtual environment
+
+pip install opencv-python
+
+pip install ipykernel   # Allows to use venv with with Jupyter Notebook
+                        # Since it's being used for prototype purposes,
+                        # it may be removed in future versions
