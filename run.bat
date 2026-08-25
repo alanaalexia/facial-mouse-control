@@ -7,11 +7,12 @@ if not exist venv (
     python -m venv .venv
 )
 
-:: 2. Activate the environment (if not activated)
+:: 2. Activate the environment
 call .venv\Scripts\activate.bat
 
 :: 3. Install dependencies
 echo Installing the dependencies from requirements.txt...
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 
 :: 4. Register Jupyter kernel
